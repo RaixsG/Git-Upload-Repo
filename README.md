@@ -50,18 +50,18 @@ De preferencia que el nombre sea igual que la carpeta que vaya a subir al reposi
         ![Imagen 7](image-6.png)
         *[Si quiere visualizar el estado de los archivos, nuevamente puede ejecutar el anterior comando]*
         *4.3.1*.[git status]
-            ![Imagen 9](image-8.png)
+            ![Imagen 8](image-7.png)
               *[Se puede ver que no hay ningun Commit en cola]*
     **4.4**.'git remote add origin https://aqui-va-su-link.git'
         *[Con esto, sus archivos se van a conectar con su repositorio remoto dentro GitHub]*
-        ![Imagen 10](image-9.png)
+        ![Imagen 9](image-8.png)
     **4.5**.'git push origin main'
         *[Por ultimo, ejecutaremos este comando, lo que hará que se suban completamente todos sus archivos selecionados a su*
         *repositorio remoto]*
-        ![Imagen 11](image-10.png)
+        ![Imagen 10](image-9.png)
         *4.5.1*.[git status]
               *[Ahora si desea, pueden comprobar el estados de sus archivos con el anterior comando]*
-            ![Imagen 12](image-11.png)
+            ![Imagen 11](image-10.png)
 
 **5**.Si volvemos a nuestro GitHub, y recargamos la pagina podremos visualizar nuestros archivos que hemos subido.
-    ![Imagen 13](image-12.png)
+    ![Imagen 12](image-11.png)
