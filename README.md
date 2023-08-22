@@ -19,7 +19,9 @@ Este **README** nos ayudara a la creacion de un repositorio en **GitHub** y cone
 ## Instrucciones
 
 **1** Creación de un Repositorio en GitHub!:
-      ![](image.png)
+      <kbd>
+        <imag src="image.png" width="500" height="300">
+      </kbd>
       De preferencia que el nombre sea igual que la carpeta que vaya a subir al repositorio.
 
 **2** Luego de Crear el repositorio en GitHub, copias el codigo Url que te da de resultado.
