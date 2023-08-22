@@ -18,72 +18,50 @@ Este **README** nos ayudara a la creacion de un repositorio en **GitHub** y cone
 
 ## Instrucciones
 
-**1** Creación de un Repositorio en GitHub!:
-<kbd>
-    <img src="image.png" width="700" height="550">
-</kbd>
+**1**. Creación de un Repositorio en GitHub!:
+
+![Imagen 1](image.png)
+
 De preferencia que el nombre sea igual que la carpeta que vaya a subir al repositorio.
 
-**2** Luego de Crear el repositorio en GitHub, copias el codigo Url que te da de resultado.
-    <kbd>
-        <img src="image-1.png" width="700" height="400">
-    </kbd>
+**2**. Luego de Crear el repositorio en GitHub, copias el codigo Url que te da de resultado.
+![Imagen 2](image-1.png)
 
-**3** En tu carpeta local abre una terminal, o abre el Git Bash!:
+**3**. En tu carpeta local abre una terminal, o abre el Git Bash!:
       (Con MAYUS + Click Derecho) puedes abrir el panel completo si en caso estas en Windows 11.
-      <kbd>
-        <img src="image-2.png" width="500" height="550">
-      </kbd>
+      ![Imagen 3](image-2.png)
 
       { Por parte de la prueba voy a crear un archivo .txt }
 
-**4** Ahora dentro del Git Bash ejecuta los siguientes comandos:
-    **4.1**'git init'
+**4**. Ahora dentro del Git Bash ejecuta los siguientes comandos:
+    **4.1**.'git init'
         *[Esto iniciara un nuevo repositoro en el lugar ejecutado]*
-        <kbd>
-            <img src="image-3.png" width="700" height="550">
-        </kbd>
+        ![Imagen 4](image-3.png)
         *[Esto nos dejara con un archivo .git en la carpeta]*
-    **4.2** 'git add .'
+    **4.2**.'git add .'
         *[Con este comando, se agregaran TODOS los ARCHIVOS a la "cola" para enviarse al repositorio]*
-        <kbd>
-            <img src="image-4.png" width="700" height="550">
-        </kbd>
+        ![Imagen 5](image-4.png)
         *[Si en caso desea ver la cola a enviarse, ejecute el siguiente comando]*
-        *4.2.1* [git status]
-            <kbd>
-                <img src="image-5.png" width="700" height="550">
-            </kbd>
+        *4.2.1*.[git status]
+            ![Imagen 6](image-5.png)
               *[Como puede visualizar, esta en cola un nuevo archivo (que seria nuestro archivo .txt)]*
-    **4.3** 'git commit -m "mensaje a enviar"
+    **4.3**.'git commit -m "mensaje a enviar"
         *[Los cambios ya estan agregados, solo faltaria realizar el push hacia el repositorio Remoto]*
-        <kbd>
-            <img src="image-6.png" width="700" height="550">
-        </kbd>
+        ![Imagen 7](image-6.png)
         *[Si quiere visualizar el estado de los archivos, nuevamente puede ejecutar el anterior comando]*
-        *4.3.1* [git status]
-            <kbd>
-                <img src="image-7.png" width="700" height="550">
-            </kbd>
+        *4.3.1*.[git status]
+            ![Imagen 9](image-8.png)
               *[Se puede ver que no hay ningun Commit en cola]*
-    **4.4** 'git remote add origin https://aqui-va-su-link.git'
+    **4.4**.'git remote add origin https://aqui-va-su-link.git'
         *[Con esto, sus archivos se van a conectar con su repositorio remoto dentro GitHub]*
-        <kbd>
-            <img src="image-8.png" width="700" height="550">
-        </kbd>
-    **4.5** 'git push origin main'
+        ![Imagen 10](image-9.png)
+    **4.5**.'git push origin main'
         *[Por ultimo, ejecutaremos este comando, lo que hará que se suban completamente todos sus archivos selecionados a su*
         *repositorio remoto]*
-        <kbd>
-            <img src="image-9.png" width="700" height="550">
-        </kbd>
-        *4.5.1* [git status]
+        ![Imagen 11](image-10.png)
+        *4.5.1*.[git status]
               *[Ahora si desea, pueden comprobar el estados de sus archivos con el anterior comando]*
-            <kbd>
-                <img src="image-10.png" width="700" height="550">
-            </kbd>
+            ![Imagen 12](image-11.png)
 
-**5** Si volvemos a nuestro GitHub, y recargamos la pagina podremos visualizar nuestros archivos que hemos subido.
-    <kbd>
-        <img src="image-11.png" width="700" height="550">
-    </kbd>
+**5**.Si volvemos a nuestro GitHub, y recargamos la pagina podremos visualizar nuestros archivos que hemos subido.
+    ![Imagen 13](image-12.png)
