@@ -19,49 +19,49 @@ Este **README** nos ayudara a la creacion de un repositorio en **GitHub** y cone
 ## Instrucciones
 
 **1** Creación de un Repositorio en GitHub!:
-      <kbd>
-        <img src="image.png" width="500" height="300">
-      </kbd>
-      De preferencia que el nombre sea igual que la carpeta que vaya a subir al repositorio.
+<kbd>
+    <img src="image.png" width="700" height="400">
+</kbd>
+    De preferencia que el nombre sea igual que la carpeta que vaya a subir al repositorio.
 
 **2** Luego de Crear el repositorio en GitHub, copias el codigo Url que te da de resultado.
-      ![](image-1.png)
+    <img src="image-1.png" width="700" height="400">
 
 **3** En tu carpeta local abre una terminal, o abre el Git Bash!:
       (Con MAYUS + Click Derecho) puedes abrir el panel completo si en caso estas en Windows 11.
-      ![](image-2.png)
+      <img src="image-2.png" width="700" height="400">
 
       { Por parte de la prueba voy a crear un archivo .txt }
 
 **4** Ahora dentro del Git Bash ejecuta los siguientes comandos:
     **4.1**'git init'
         *[Esto iniciara un nuevo repositoro en el lugar ejecutado]*
-        ![](image-3.png)
+        <img src="image-3.png" width="700" height="400">
         *[Esto nos dejara con un archivo .git en la carpeta]*
     **4.2** 'git add .'
         *[Con este comando, se agregaran TODOS los ARCHIVOS a la "cola" para enviarse al repositorio]*
-        ![](image-4.png)
+        <img src="image-4.png" width="700" height="400">
         *[Si en caso desea ver la cola a enviarse, ejecute el siguiente comando]*
         *4.2.1* [git status]
-              ![](image-5.png)
+              <img src="image-5.png" width="700" height="400">
               *[Como puede visualizar, esta en cola un nuevo archivo (que seria nuestro archivo .txt)]*
     **4.3** 'git commit -m "mensaje a enviar"
         *[Los cambios ya estan agregados, solo faltaria realizar el push hacia el repositorio Remoto]*
-        ![](image-6.png)
+        <img src="image-6.png" width="700" height="400">
         *[Si quiere visualizar el estado de los archivos, nuevamente puede ejecutar el anterior comando]*
         *4.3.1* [git status]
-              ![](image-7.png)
+              <img src="image-7.png" width="700" height="400">
               *[Se puede ver que no hay ningun Commit en cola]*
     **4.4** 'git remote add origin https://aqui-va-su-link.git'
         *[Con esto, sus archivos se van a conectar con su repositorio remoto dentro GitHub]*
-        ![](image-8.png)
+        <img src="image-8.png" width="700" height="400">
     **4.5** 'git push origin main'
         *[Por ultimo, ejecutaremos este comando, lo que hará que se suban completamente todos sus archivos selecionados a su*
         *repositorio remoto]*
-        ![](image-9.png)
+        <img src="image-9.png" width="700" height="400">
         *4.5.1* [git status]
               *[Ahora si desea, pueden comprobar el estados de sus archivos con el anterior comando]*
-              ![](image-10.png)
+              <img src="image-10.png" width="700" height="400">
 
 **5** Si volvemos a nuestro GitHub, y recargamos la pagina podremos visualizar nuestros archivos que hemos subido.
-      ![](image-11.png)
+      <img src="image-11.png" width="700" height="400">
