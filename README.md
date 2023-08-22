@@ -26,7 +26,7 @@ De preferencia que el nombre sea igual que la carpeta que vaya a subir al reposi
 
 **2** Luego de Crear el repositorio en GitHub, copias el codigo Url que te da de resultado.
     <kbd>
-        <img src="image-1.png" width="550" height="700">
+        <img src="image-1.png" width="700" height="400">
     </kbd>
 
 **3** En tu carpeta local abre una terminal, o abre el Git Bash!:
