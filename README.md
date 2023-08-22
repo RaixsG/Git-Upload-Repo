@@ -34,10 +34,12 @@ De preferencia que el nombre sea igual que la carpeta que vaya a subir al reposi
       { Por parte de la prueba voy a crear un archivo .txt }
 
 **4**. Ahora dentro del Git Bash ejecuta los siguientes comandos:
+
     **4.1**.'git init'
         *[Esto iniciara un nuevo repositoro en el lugar ejecutado]*
         ![Imagen 4](image-3.png)
         *[Esto nos dejara con un archivo .git en la carpeta]*
+        
     **4.2**.'git add .'
         *[Con este comando, se agregaran TODOS los ARCHIVOS a la "cola" para enviarse al repositorio]*
         ![Imagen 5](image-4.png)
@@ -45,6 +47,7 @@ De preferencia que el nombre sea igual que la carpeta que vaya a subir al reposi
         *4.2.1*.[git status]
             ![Imagen 6](image-5.png)
               *[Como puede visualizar, esta en cola un nuevo archivo (que seria nuestro archivo .txt)]*
+              
     **4.3**.'git commit -m "mensaje a enviar"
         *[Los cambios ya estan agregados, solo faltaria realizar el push hacia el repositorio Remoto]*
         ![Imagen 7](image-6.png)
@@ -52,9 +55,11 @@ De preferencia que el nombre sea igual que la carpeta que vaya a subir al reposi
         *4.3.1*.[git status]
             ![Imagen 8](image-7.png)
               *[Se puede ver que no hay ningun Commit en cola]*
+              
     **4.4**.'git remote add origin https://aqui-va-su-link.git'
         *[Con esto, sus archivos se van a conectar con su repositorio remoto dentro GitHub]*
         ![Imagen 9](image-8.png)
+        
     **4.5**.'git push origin main'
         *[Por ultimo, ejecutaremos este comando, lo que hará que se suban completamente todos sus archivos selecionados a su*
         *repositorio remoto]*
